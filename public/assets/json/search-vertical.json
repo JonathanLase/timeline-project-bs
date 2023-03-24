@@ -1,0 +1,9 @@
+{
+  "pages": [
+    {
+      "name": "Dashboard",
+      "icon": "bx-home-circle",
+      "url": "index.html"
+    }
+  ]
+}

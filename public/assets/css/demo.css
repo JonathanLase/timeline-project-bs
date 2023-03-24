@@ -1,0 +1,308 @@
+/*
+* demo.css
+* File include item demo only specific css only
+******************************************************************************/
+
+.menu .app-brand.demo {
+  height: 64px;
+  margin-top: 12px;
+}
+
+.app-brand-logo.demo svg {
+  width: 22px;
+  height: 38px;
+}
+
+.app-brand-text.demo {
+  font-size: 1.75rem;
+  letter-spacing: -0.5px;
+  text-transform: lowercase;
+}
+
+/* ! For .layout-navbar-fixed added fix padding top tpo .layout-page */
+/* Detached navbar */
+.layout-navbar-fixed .layout-wrapper:not(.layout-horizontal):not(.layout-without-menu) .layout-page {
+  padding-top: 76px !important;
+}
+/* Default navbar */
+.layout-navbar-fixed .layout-wrapper:not(.layout-without-menu) .layout-page {
+  padding-top: 64px !important;
+}
+
+/* Navbar page z-index issue solution */
+.content-wrapper .navbar {
+  z-index: auto;
+}
+
+/*
+* Content
+******************************************************************************/
+
+.demo-blocks > * {
+  display: block !important;
+}
+
+.demo-inline-spacing > * {
+  margin: 1rem 0.375rem 0 0 !important;
+}
+
+/* ? .demo-vertical-spacing class is used to have vertical margins between elements. To remove margin-top from the first-child, use .demo-only-element class with .demo-vertical-spacing class. For example, we have used this class in forms-input-groups.html file. */
+.demo-vertical-spacing > * {
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+}
+.demo-vertical-spacing.demo-only-element > :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-lg > * {
+  margin-top: 1.875rem !important;
+  margin-bottom: 0 !important;
+}
+.demo-vertical-spacing-lg.demo-only-element > :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-xl > * {
+  margin-top: 5rem !important;
+  margin-bottom: 0 !important;
+}
+.demo-vertical-spacing-xl.demo-only-element > :first-child {
+  margin-top: 0 !important;
+}
+
+.rtl-only {
+  display: none !important;
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+[dir='rtl'] .rtl-only {
+  display: block !important;
+}
+
+/*
+* Layout demo
+******************************************************************************/
+
+.layout-demo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.layout-demo-placeholder img {
+  width: 900px;
+}
+.layout-demo-info {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+.myfilter{
+
+  position: relative;
+
+}
+
+.myfilter:after{
+
+position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
+
+background: rgba(0, 0, 0, 0.6);
+
+mix-blend-mode: multiply
+
+}
+
+#preloader {
+width: 100%;
+height: 100%;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: #03002e8e;
+z-index: 11000;
+position: fixed;
+display: block;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.preloader {
+position: absolute;
+margin: 0 auto;
+left: 1%;
+right: 1%;
+top: 45%;
+width: 95px;
+height: 95px;
+background: center center no-repeat none;
+background-size: 95px 95px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+}
+
+.rzloading {
+position: relative;
+width: 30px;
+height: 30px;
+border-radius: 15px;
+-webkit-animation: rotation 1s infinite;
+animation: rotation 1s infinite;
+}
+.rzloading .shape {
+position: absolute;
+width: 10px;
+height: 10px;
+border-radius: 5px;
+}
+.rzloading .shape.shape-1 {
+left: 0;
+background-color: #4285f4;
+}
+.rzloading .shape.shape-2 {
+right: 0;
+background-color: #34a853;
+}
+.rzloading .shape.shape-3 {
+bottom: 0;
+background-color: #fbbc05;
+}
+.rzloading .shape.shape-4 {
+bottom: 0;
+right: 0;
+background-color: #ea4335;
+}
+.rzloading .shape-1 {
+-webkit-animation: shape1 0.5s infinite alternate;
+animation: shape1 0.5s infinite alternate;
+}
+.rzloading .shape-2 {
+-webkit-animation: shape2 0.5s infinite alternate;
+animation: shape2 0.5s infinite alternate;
+}
+.rzloading .shape-3 {
+-webkit-animation: shape3 0.5s infinite alternate;
+animation: shape3 0.5s infinite alternate;
+}
+.rzloading .shape-4 {
+-webkit-animation: shape4 0.5s infinite alternate;
+animation: shape4 0.5s infinite alternate;
+}
+
+
+@-webkit-keyframes rotation {
+from {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+to {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+}
+
+@keyframes rotation {
+from {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+to {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+}
+@-webkit-keyframes shape1 {
+from {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+to {
+  -webkit-transform: translate(20px, 20px);
+  transform: translate(20px, 20px);
+}
+}
+@keyframes shape1 {
+from {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+to {
+  -webkit-transform: translate(20px, 20px);
+  transform: translate(20px, 20px);
+}
+}
+@-webkit-keyframes shape2 {
+from {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+to {
+  -webkit-transform: translate(-20px, 20px);
+  transform: translate(-20px, 20px);
+}
+}
+@keyframes shape2 {
+from {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+to {
+  -webkit-transform: translate(-20px, 20px);
+  transform: translate(-20px, 20px);
+}
+}
+@-webkit-keyframes shape3 {
+from {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+to {
+  -webkit-transform: translate(20px, -20px);
+  transform: translate(20px, -20px);
+}
+}
+@keyframes shape3 {
+from {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+to {
+  -webkit-transform: translate(20px, -20px);
+  transform: translate(20px, -20px);
+}
+}
+@-webkit-keyframes shape4 {
+from {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+to {
+  -webkit-transform: translate(-20px, -20px);
+  transform: translate(-20px, -20px);
+}
+}
+@keyframes shape4 {
+from {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+to {
+  -webkit-transform: translate(-20px, -20px);
+  transform: translate(-20px, -20px);
+}
+}
