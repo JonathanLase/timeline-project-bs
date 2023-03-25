@@ -1,0 +1,64 @@
+INFO - 2023-02-23 06:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 06:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 06:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 06:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 06:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-23 06:37:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Project.php on line 53.
+ 1 APPPATH\Controllers\Project.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Project.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Project->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-23 00:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:01:33 --> CSRF token verified.
+INFO - 2023-02-23 00:01:35 --> CSRF token verified.
+INFO - 2023-02-23 00:01:41 --> CSRF token verified.
+CRITICAL - 2023-02-23 00:01:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Project.php on line 158.
+ 1 APPPATH\Controllers\Project.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Project.php', 158, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Project->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-23 00:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:01:45 --> CSRF token verified.
+INFO - 2023-02-23 00:01:58 --> CSRF token verified.
+INFO - 2023-02-23 00:02:00 --> CSRF token verified.
+INFO - 2023-02-23 00:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:09:33 --> CSRF token verified.
+INFO - 2023-02-23 00:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:09:37 --> CSRF token verified.
+INFO - 2023-02-23 00:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:09:41 --> CSRF token verified.
+INFO - 2023-02-23 00:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:09:48 --> CSRF token verified.
+INFO - 2023-02-23 00:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:09:51 --> CSRF token verified.
+INFO - 2023-02-23 00:09:55 --> CSRF token verified.
+INFO - 2023-02-23 00:09:57 --> CSRF token verified.
+INFO - 2023-02-23 00:10:15 --> CSRF token verified.
+INFO - 2023-02-23 00:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:11:49 --> CSRF token verified.
+INFO - 2023-02-23 00:11:51 --> CSRF token verified.
+INFO - 2023-02-23 00:11:56 --> CSRF token verified.
+CRITICAL - 2023-02-23 00:11:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Project.php on line 159.
+ 1 APPPATH\Controllers\Project.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Project.php', 159, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Project->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-23 00:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:12:03 --> CSRF token verified.
+INFO - 2023-02-23 00:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 00:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 01:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 01:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-23 04:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

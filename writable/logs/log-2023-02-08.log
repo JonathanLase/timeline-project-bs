@@ -1,0 +1,454 @@
+CRITICAL - 2023-02-08 13:12:01 --> Undefined variable: title
+in APPPATH\Views\layouts\master_app.php on line 9.
+ 1 APPPATH\Views\layouts\master_app.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layouts\\master_app.php', 9, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\master_app.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layouts/master_app', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/master_app')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-08 13:13:22 --> Call to undefined function form_open()
+in APPPATH\Views\bidang.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('bidang', [], true)
+ 4 APPPATH\Controllers\Bidang.php(29): view('bidang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bidang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidang))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-08 13:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:14:38 --> CSRF token verified.
+INFO - 2023-02-08 13:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:15:00 --> CSRF token verified.
+INFO - 2023-02-08 13:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:15:06 --> CSRF token verified.
+INFO - 2023-02-08 13:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:16:14 --> CSRF token verified.
+INFO - 2023-02-08 13:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:17:22 --> CSRF token verified.
+CRITICAL - 2023-02-08 13:17:27 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('bidang', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-08 13:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:18:40 --> CSRF token verified.
+INFO - 2023-02-08 13:18:44 --> CSRF token verified.
+INFO - 2023-02-08 13:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:18:45 --> CSRF token verified.
+INFO - 2023-02-08 13:18:49 --> CSRF token verified.
+INFO - 2023-02-08 13:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:18:51 --> CSRF token verified.
+INFO - 2023-02-08 13:20:08 --> CSRF token verified.
+INFO - 2023-02-08 13:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:20:09 --> CSRF token verified.
+INFO - 2023-02-08 13:20:13 --> CSRF token verified.
+INFO - 2023-02-08 13:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:20:14 --> CSRF token verified.
+INFO - 2023-02-08 13:20:54 --> CSRF token verified.
+INFO - 2023-02-08 13:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:20:55 --> CSRF token verified.
+INFO - 2023-02-08 13:20:58 --> CSRF token verified.
+INFO - 2023-02-08 13:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:20:59 --> CSRF token verified.
+INFO - 2023-02-08 13:21:49 --> CSRF token verified.
+INFO - 2023-02-08 13:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:21:51 --> CSRF token verified.
+INFO - 2023-02-08 13:22:14 --> CSRF token verified.
+INFO - 2023-02-08 13:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:22:15 --> CSRF token verified.
+INFO - 2023-02-08 13:23:00 --> CSRF token verified.
+INFO - 2023-02-08 13:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:23:01 --> CSRF token verified.
+CRITICAL - 2023-02-08 13:23:37 --> Undefined variable: title
+in APPPATH\Views\layouts\master_app.php on line 9.
+ 1 APPPATH\Views\layouts\master_app.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layouts\\master_app.php', 9, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\master_app.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layouts/master_app', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/master_app')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-08 13:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:23:45 --> CSRF token verified.
+INFO - 2023-02-08 13:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:23:58 --> CSRF token verified.
+CRITICAL - 2023-02-08 13:23:58 --> Undefined property: stdClass::$id_jabatan
+in APPPATH\Controllers\Bidang.php on line 40.
+ 1 APPPATH\Controllers\Bidang.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_jabatan', 'APPPATH\\Controllers\\Bidang.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bidang->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidang))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-08 13:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:25:08 --> CSRF token verified.
+CRITICAL - 2023-02-08 13:25:08 --> Undefined property: stdClass::$id_jabatan
+in APPPATH\Controllers\Bidang.php on line 40.
+ 1 APPPATH\Controllers\Bidang.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_jabatan', 'APPPATH\\Controllers\\Bidang.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bidang->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidang))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-08 13:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:28:08 --> CSRF token verified.
+CRITICAL - 2023-02-08 13:28:08 --> Undefined property: stdClass::$id_jabatan
+in APPPATH\Controllers\Bidang.php on line 40.
+ 1 APPPATH\Controllers\Bidang.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_jabatan', 'APPPATH\\Controllers\\Bidang.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bidang->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidang))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-08 13:28:15 --> CSRF token verified.
+INFO - 2023-02-08 13:28:16 --> CSRF token verified.
+CRITICAL - 2023-02-08 13:28:16 --> Undefined property: stdClass::$id_jabatan
+in APPPATH\Controllers\Bidang.php on line 40.
+ 1 APPPATH\Controllers\Bidang.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_jabatan', 'APPPATH\\Controllers\\Bidang.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bidang->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidang))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-08 13:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:30:16 --> CSRF token verified.
+INFO - 2023-02-08 13:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 13:30:34 --> CSRF token verified.
+INFO - 2023-02-08 13:30:40 --> CSRF token verified.
+INFO - 2023-02-08 13:30:41 --> CSRF token verified.
+INFO - 2023-02-08 13:30:50 --> CSRF token verified.
+INFO - 2023-02-08 13:30:52 --> CSRF token verified.
+INFO - 2023-02-08 13:31:19 --> CSRF token verified.
+INFO - 2023-02-08 13:31:21 --> CSRF token verified.
+INFO - 2023-02-08 13:31:38 --> CSRF token verified.
+INFO - 2023-02-08 13:31:40 --> CSRF token verified.
+INFO - 2023-02-08 13:31:47 --> CSRF token verified.
+INFO - 2023-02-08 13:31:48 --> CSRF token verified.
+INFO - 2023-02-08 13:34:39 --> CSRF token verified.
+INFO - 2023-02-08 13:35:34 --> CSRF token verified.
+INFO - 2023-02-08 13:35:55 --> CSRF token verified.
+CRITICAL - 2023-02-08 13:39:51 --> Undefined property: stdClass::$url_title
+in APPPATH\Views\layouts\master_app.php on line 136.
+ 1 APPPATH\Views\layouts\master_app.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$url_title', 'APPPATH\\Views\\layouts\\master_app.php', 136, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\master_app.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/master_app', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('bidang', [], true)
+ 6 APPPATH\Controllers\Bidang.php(30): view('bidang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bidang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidang))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-08 13:41:12 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('bidang', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-08 13:41:26 --> CSRF token verified.
+INFO - 2023-02-08 13:42:10 --> CSRF token verified.
+INFO - 2023-02-08 13:42:41 --> CSRF token verified.
+INFO - 2023-02-08 13:42:42 --> CSRF token verified.
+INFO - 2023-02-08 13:42:47 --> CSRF token verified.
+INFO - 2023-02-08 13:42:53 --> CSRF token verified.
+INFO - 2023-02-08 13:42:54 --> CSRF token verified.
+INFO - 2023-02-08 13:42:57 --> CSRF token verified.
+INFO - 2023-02-08 13:54:15 --> CSRF token verified.
+INFO - 2023-02-08 16:00:27 --> CSRF token verified.
+INFO - 2023-02-08 16:00:48 --> CSRF token verified.
+INFO - 2023-02-08 16:01:08 --> CSRF token verified.
+INFO - 2023-02-08 16:01:20 --> CSRF token verified.
+INFO - 2023-02-08 16:01:21 --> CSRF token verified.
+INFO - 2023-02-08 16:02:15 --> CSRF token verified.
+INFO - 2023-02-08 16:02:16 --> CSRF token verified.
+INFO - 2023-02-08 16:02:20 --> CSRF token verified.
+INFO - 2023-02-08 16:02:21 --> CSRF token verified.
+INFO - 2023-02-08 16:02:40 --> CSRF token verified.
+INFO - 2023-02-08 16:02:41 --> CSRF token verified.
+INFO - 2023-02-08 16:02:45 --> CSRF token verified.
+INFO - 2023-02-08 16:02:47 --> CSRF token verified.
+INFO - 2023-02-08 16:02:49 --> CSRF token verified.
+INFO - 2023-02-08 16:02:51 --> CSRF token verified.
+INFO - 2023-02-08 16:03:40 --> CSRF token verified.
+INFO - 2023-02-08 16:03:42 --> CSRF token verified.
+INFO - 2023-02-08 16:03:59 --> CSRF token verified.
+INFO - 2023-02-08 16:04:04 --> CSRF token verified.
+INFO - 2023-02-08 16:04:05 --> CSRF token verified.
+INFO - 2023-02-08 16:04:08 --> CSRF token verified.
+INFO - 2023-02-08 16:04:10 --> CSRF token verified.
+INFO - 2023-02-08 16:10:10 --> CSRF token verified.
+INFO - 2023-02-08 16:10:12 --> CSRF token verified.
+INFO - 2023-02-08 16:10:20 --> CSRF token verified.
+INFO - 2023-02-08 16:10:22 --> CSRF token verified.
+INFO - 2023-02-08 16:10:26 --> CSRF token verified.
+INFO - 2023-02-08 16:10:28 --> CSRF token verified.
+INFO - 2023-02-08 16:10:40 --> CSRF token verified.
+INFO - 2023-02-08 16:10:41 --> CSRF token verified.
+INFO - 2023-02-08 16:10:49 --> CSRF token verified.
+INFO - 2023-02-08 16:10:50 --> CSRF token verified.
+INFO - 2023-02-08 16:16:29 --> CSRF token verified.
+INFO - 2023-02-08 16:16:30 --> CSRF token verified.
+INFO - 2023-02-08 16:16:33 --> CSRF token verified.
+INFO - 2023-02-08 16:16:38 --> CSRF token verified.
+INFO - 2023-02-08 16:16:40 --> CSRF token verified.
+INFO - 2023-02-08 16:17:45 --> CSRF token verified.
+INFO - 2023-02-08 16:17:46 --> CSRF token verified.
+INFO - 2023-02-08 16:17:52 --> CSRF token verified.
+INFO - 2023-02-08 16:17:54 --> CSRF token verified.
+INFO - 2023-02-08 16:17:57 --> CSRF token verified.
+INFO - 2023-02-08 16:17:58 --> CSRF token verified.
+INFO - 2023-02-08 16:18:03 --> CSRF token verified.
+INFO - 2023-02-08 16:18:04 --> CSRF token verified.
+INFO - 2023-02-08 16:18:22 --> CSRF token verified.
+INFO - 2023-02-08 16:18:23 --> CSRF token verified.
+INFO - 2023-02-08 16:18:28 --> CSRF token verified.
+INFO - 2023-02-08 16:18:29 --> CSRF token verified.
+INFO - 2023-02-08 16:18:38 --> CSRF token verified.
+INFO - 2023-02-08 16:18:40 --> CSRF token verified.
+INFO - 2023-02-08 16:19:27 --> CSRF token verified.
+INFO - 2023-02-08 16:19:33 --> CSRF token verified.
+INFO - 2023-02-08 16:19:35 --> CSRF token verified.
+INFO - 2023-02-08 16:23:29 --> CSRF token verified.
+INFO - 2023-02-08 16:23:30 --> CSRF token verified.
+INFO - 2023-02-08 16:23:33 --> CSRF token verified.
+INFO - 2023-02-08 16:23:36 --> CSRF token verified.
+INFO - 2023-02-08 16:23:38 --> CSRF token verified.
+INFO - 2023-02-08 16:24:39 --> CSRF token verified.
+INFO - 2023-02-08 16:24:41 --> CSRF token verified.
+INFO - 2023-02-08 16:24:42 --> CSRF token verified.
+INFO - 2023-02-08 16:29:35 --> CSRF token verified.
+INFO - 2023-02-08 16:29:36 --> CSRF token verified.
+INFO - 2023-02-08 16:29:44 --> CSRF token verified.
+INFO - 2023-02-08 16:31:29 --> CSRF token verified.
+INFO - 2023-02-08 16:31:30 --> CSRF token verified.
+INFO - 2023-02-08 16:31:36 --> CSRF token verified.
+INFO - 2023-02-08 16:31:38 --> CSRF token verified.
+INFO - 2023-02-08 16:31:42 --> CSRF token verified.
+INFO - 2023-02-08 16:31:43 --> CSRF token verified.
+INFO - 2023-02-08 16:31:50 --> CSRF token verified.
+INFO - 2023-02-08 16:31:57 --> CSRF token verified.
+INFO - 2023-02-08 16:31:58 --> CSRF token verified.
+INFO - 2023-02-08 16:33:18 --> CSRF token verified.
+INFO - 2023-02-08 16:33:19 --> CSRF token verified.
+INFO - 2023-02-08 16:33:23 --> CSRF token verified.
+INFO - 2023-02-08 16:33:24 --> CSRF token verified.
+INFO - 2023-02-08 16:33:39 --> CSRF token verified.
+INFO - 2023-02-08 16:33:40 --> CSRF token verified.
+INFO - 2023-02-08 16:34:38 --> CSRF token verified.
+INFO - 2023-02-08 16:35:14 --> CSRF token verified.
+INFO - 2023-02-08 16:35:15 --> CSRF token verified.
+INFO - 2023-02-08 16:35:28 --> CSRF token verified.
+INFO - 2023-02-08 16:35:29 --> CSRF token verified.
+INFO - 2023-02-08 16:35:48 --> CSRF token verified.
+INFO - 2023-02-08 16:35:49 --> CSRF token verified.
+INFO - 2023-02-08 16:37:37 --> CSRF token verified.
+INFO - 2023-02-08 16:37:38 --> CSRF token verified.
+INFO - 2023-02-08 16:37:43 --> CSRF token verified.
+INFO - 2023-02-08 16:37:45 --> CSRF token verified.
+INFO - 2023-02-08 16:37:47 --> CSRF token verified.
+INFO - 2023-02-08 16:37:48 --> CSRF token verified.
+INFO - 2023-02-08 16:37:56 --> CSRF token verified.
+INFO - 2023-02-08 16:37:58 --> CSRF token verified.
+INFO - 2023-02-08 16:41:56 --> CSRF token verified.
+INFO - 2023-02-08 16:48:13 --> CSRF token verified.
+INFO - 2023-02-08 16:48:14 --> CSRF token verified.
+INFO - 2023-02-08 16:48:21 --> CSRF token verified.
+INFO - 2023-02-08 16:48:23 --> CSRF token verified.
+INFO - 2023-02-08 16:48:30 --> CSRF token verified.
+INFO - 2023-02-08 16:48:42 --> CSRF token verified.
+INFO - 2023-02-08 16:48:47 --> CSRF token verified.
+INFO - 2023-02-08 16:48:49 --> CSRF token verified.
+INFO - 2023-02-08 16:49:09 --> CSRF token verified.
+INFO - 2023-02-08 16:49:10 --> CSRF token verified.
+INFO - 2023-02-08 16:49:13 --> CSRF token verified.
+INFO - 2023-02-08 16:49:18 --> CSRF token verified.
+INFO - 2023-02-08 16:49:20 --> CSRF token verified.
+INFO - 2023-02-08 16:49:32 --> CSRF token verified.
+INFO - 2023-02-08 16:49:33 --> CSRF token verified.
+INFO - 2023-02-08 16:49:42 --> CSRF token verified.
+INFO - 2023-02-08 16:49:43 --> CSRF token verified.
+INFO - 2023-02-08 16:49:45 --> CSRF token verified.
+INFO - 2023-02-08 16:49:48 --> CSRF token verified.
+INFO - 2023-02-08 16:49:59 --> CSRF token verified.
+INFO - 2023-02-08 16:50:01 --> CSRF token verified.
+INFO - 2023-02-08 16:55:10 --> CSRF token verified.
+INFO - 2023-02-08 16:55:11 --> CSRF token verified.
+INFO - 2023-02-08 16:55:15 --> CSRF token verified.
+INFO - 2023-02-08 16:55:17 --> CSRF token verified.
+INFO - 2023-02-08 16:55:21 --> CSRF token verified.
+INFO - 2023-02-08 16:55:23 --> CSRF token verified.
+INFO - 2023-02-08 16:55:25 --> CSRF token verified.
+INFO - 2023-02-08 16:55:31 --> CSRF token verified.
+INFO - 2023-02-08 16:56:09 --> CSRF token verified.
+INFO - 2023-02-08 16:56:15 --> CSRF token verified.
+INFO - 2023-02-08 16:56:30 --> CSRF token verified.
+INFO - 2023-02-08 16:56:31 --> CSRF token verified.
+INFO - 2023-02-08 16:56:36 --> CSRF token verified.
+INFO - 2023-02-08 16:56:45 --> CSRF token verified.
+INFO - 2023-02-08 16:56:46 --> CSRF token verified.
+INFO - 2023-02-08 16:58:35 --> CSRF token verified.
+INFO - 2023-02-08 16:58:36 --> CSRF token verified.
+INFO - 2023-02-08 16:58:43 --> CSRF token verified.
+INFO - 2023-02-08 16:58:47 --> CSRF token verified.
+INFO - 2023-02-08 16:58:49 --> CSRF token verified.
+INFO - 2023-02-08 17:00:34 --> CSRF token verified.
+INFO - 2023-02-08 17:00:35 --> CSRF token verified.
+INFO - 2023-02-08 17:00:38 --> CSRF token verified.
+INFO - 2023-02-08 17:00:43 --> CSRF token verified.
+INFO - 2023-02-08 17:00:44 --> CSRF token verified.
+INFO - 2023-02-08 17:01:31 --> CSRF token verified.
+INFO - 2023-02-08 17:01:33 --> CSRF token verified.
+INFO - 2023-02-08 17:01:36 --> CSRF token verified.
+INFO - 2023-02-08 17:01:40 --> CSRF token verified.
+INFO - 2023-02-08 17:01:42 --> CSRF token verified.
+INFO - 2023-02-08 17:03:14 --> CSRF token verified.
+INFO - 2023-02-08 17:03:15 --> CSRF token verified.
+INFO - 2023-02-08 17:03:18 --> CSRF token verified.
+INFO - 2023-02-08 17:03:21 --> CSRF token verified.
+INFO - 2023-02-08 17:03:23 --> CSRF token verified.
+INFO - 2023-02-08 17:03:57 --> CSRF token verified.
+INFO - 2023-02-08 17:03:58 --> CSRF token verified.
+INFO - 2023-02-08 17:04:02 --> CSRF token verified.
+INFO - 2023-02-08 17:04:07 --> CSRF token verified.
+INFO - 2023-02-08 17:04:08 --> CSRF token verified.
+INFO - 2023-02-08 17:04:16 --> CSRF token verified.
+INFO - 2023-02-08 17:04:20 --> CSRF token verified.
+INFO - 2023-02-08 17:04:22 --> CSRF token verified.
+INFO - 2023-02-08 17:04:25 --> CSRF token verified.
+INFO - 2023-02-08 17:04:30 --> CSRF token verified.
+INFO - 2023-02-08 17:04:32 --> CSRF token verified.
+INFO - 2023-02-08 17:12:13 --> CSRF token verified.
+INFO - 2023-02-08 17:12:14 --> CSRF token verified.
+INFO - 2023-02-08 17:12:19 --> CSRF token verified.
+INFO - 2023-02-08 17:12:20 --> CSRF token verified.
+INFO - 2023-02-08 17:12:37 --> CSRF token verified.
+INFO - 2023-02-08 17:12:38 --> CSRF token verified.
+INFO - 2023-02-08 17:12:43 --> CSRF token verified.
+INFO - 2023-02-08 17:12:44 --> CSRF token verified.
+INFO - 2023-02-08 17:13:16 --> CSRF token verified.
+INFO - 2023-02-08 17:13:18 --> CSRF token verified.
+INFO - 2023-02-08 17:13:21 --> CSRF token verified.
+INFO - 2023-02-08 17:13:23 --> CSRF token verified.
+INFO - 2023-02-08 17:14:56 --> CSRF token verified.
+INFO - 2023-02-08 17:14:57 --> CSRF token verified.
+INFO - 2023-02-08 17:15:01 --> CSRF token verified.
+INFO - 2023-02-08 17:15:03 --> CSRF token verified.
+INFO - 2023-02-08 17:15:07 --> CSRF token verified.
+INFO - 2023-02-08 17:15:08 --> CSRF token verified.
+INFO - 2023-02-08 17:15:12 --> CSRF token verified.
+INFO - 2023-02-08 17:15:13 --> CSRF token verified.
+INFO - 2023-02-08 17:15:38 --> CSRF token verified.
+INFO - 2023-02-08 17:15:39 --> CSRF token verified.
+INFO - 2023-02-08 17:16:19 --> CSRF token verified.
+INFO - 2023-02-08 17:16:20 --> CSRF token verified.
+INFO - 2023-02-08 17:16:24 --> CSRF token verified.
+INFO - 2023-02-08 17:16:26 --> CSRF token verified.
+INFO - 2023-02-08 17:16:31 --> CSRF token verified.
+INFO - 2023-02-08 17:16:33 --> CSRF token verified.
+INFO - 2023-02-08 17:16:35 --> CSRF token verified.
+INFO - 2023-02-08 17:16:36 --> CSRF token verified.
+INFO - 2023-02-08 17:17:24 --> CSRF token verified.
+INFO - 2023-02-08 17:17:25 --> CSRF token verified.
+INFO - 2023-02-08 17:17:29 --> CSRF token verified.
+INFO - 2023-02-08 17:17:30 --> CSRF token verified.
+INFO - 2023-02-08 17:17:38 --> CSRF token verified.
+INFO - 2023-02-08 17:17:39 --> CSRF token verified.
+INFO - 2023-02-08 17:17:51 --> CSRF token verified.
+INFO - 2023-02-08 17:17:56 --> CSRF token verified.
+INFO - 2023-02-08 17:17:58 --> CSRF token verified.
+INFO - 2023-02-08 17:18:09 --> CSRF token verified.
+INFO - 2023-02-08 17:18:13 --> CSRF token verified.
+INFO - 2023-02-08 17:18:15 --> CSRF token verified.
+INFO - 2023-02-08 17:18:18 --> CSRF token verified.
+INFO - 2023-02-08 17:18:23 --> CSRF token verified.
+INFO - 2023-02-08 17:18:24 --> CSRF token verified.
+INFO - 2023-02-08 17:18:30 --> CSRF token verified.
+INFO - 2023-02-08 17:18:31 --> CSRF token verified.
+INFO - 2023-02-08 17:18:33 --> CSRF token verified.
+INFO - 2023-02-08 17:18:35 --> CSRF token verified.
+INFO - 2023-02-08 17:18:41 --> CSRF token verified.
+INFO - 2023-02-08 17:18:42 --> CSRF token verified.
+INFO - 2023-02-08 17:18:55 --> CSRF token verified.
+INFO - 2023-02-08 17:18:57 --> CSRF token verified.
+INFO - 2023-02-08 17:19:03 --> CSRF token verified.
+INFO - 2023-02-08 17:19:05 --> CSRF token verified.
+INFO - 2023-02-08 17:20:11 --> CSRF token verified.
+INFO - 2023-02-08 17:20:12 --> CSRF token verified.
+INFO - 2023-02-08 17:20:17 --> CSRF token verified.
+INFO - 2023-02-08 17:20:18 --> CSRF token verified.
+INFO - 2023-02-08 17:20:25 --> CSRF token verified.
+INFO - 2023-02-08 17:20:26 --> CSRF token verified.
+INFO - 2023-02-08 17:20:27 --> CSRF token verified.
+INFO - 2023-02-08 17:20:33 --> CSRF token verified.
+INFO - 2023-02-08 17:20:35 --> CSRF token verified.
+INFO - 2023-02-08 17:20:59 --> CSRF token verified.
+INFO - 2023-02-08 17:21:00 --> CSRF token verified.
+INFO - 2023-02-08 17:21:11 --> CSRF token verified.
+INFO - 2023-02-08 17:21:18 --> CSRF token verified.
+INFO - 2023-02-08 17:21:20 --> CSRF token verified.
+INFO - 2023-02-08 17:21:22 --> CSRF token verified.
+INFO - 2023-02-08 17:21:28 --> CSRF token verified.
+INFO - 2023-02-08 17:21:29 --> CSRF token verified.
+INFO - 2023-02-08 17:22:31 --> CSRF token verified.
+INFO - 2023-02-08 17:22:32 --> CSRF token verified.
+INFO - 2023-02-08 17:22:42 --> CSRF token verified.
+INFO - 2023-02-08 17:22:43 --> CSRF token verified.
+INFO - 2023-02-08 17:24:37 --> CSRF token verified.
+INFO - 2023-02-08 17:24:39 --> CSRF token verified.
+INFO - 2023-02-08 17:24:47 --> CSRF token verified.
+INFO - 2023-02-08 17:24:49 --> CSRF token verified.
+INFO - 2023-02-08 17:24:53 --> CSRF token verified.
+INFO - 2023-02-08 17:24:55 --> CSRF token verified.
+INFO - 2023-02-08 17:26:10 --> CSRF token verified.
+INFO - 2023-02-08 17:26:11 --> CSRF token verified.
+INFO - 2023-02-08 17:26:33 --> CSRF token verified.
+INFO - 2023-02-08 17:26:35 --> CSRF token verified.
+INFO - 2023-02-08 17:26:40 --> CSRF token verified.
+INFO - 2023-02-08 17:26:42 --> CSRF token verified.
+INFO - 2023-02-08 17:26:49 --> CSRF token verified.
+INFO - 2023-02-08 17:26:51 --> CSRF token verified.
+INFO - 2023-02-08 17:26:53 --> CSRF token verified.
+INFO - 2023-02-08 17:26:55 --> CSRF token verified.
+INFO - 2023-02-08 17:26:58 --> CSRF token verified.
+INFO - 2023-02-08 17:26:59 --> CSRF token verified.
+INFO - 2023-02-08 17:29:30 --> CSRF token verified.
+INFO - 2023-02-08 17:29:31 --> CSRF token verified.
+INFO - 2023-02-08 17:29:34 --> CSRF token verified.
+INFO - 2023-02-08 17:29:36 --> CSRF token verified.
+INFO - 2023-02-08 17:29:49 --> CSRF token verified.
+INFO - 2023-02-08 17:29:50 --> CSRF token verified.
+INFO - 2023-02-08 17:29:59 --> CSRF token verified.
+INFO - 2023-02-08 17:30:00 --> CSRF token verified.
+INFO - 2023-02-08 17:30:03 --> CSRF token verified.
+INFO - 2023-02-08 17:30:05 --> CSRF token verified.
+INFO - 2023-02-08 17:31:17 --> CSRF token verified.
+INFO - 2023-02-08 17:31:18 --> CSRF token verified.
+INFO - 2023-02-08 17:31:21 --> CSRF token verified.
+INFO - 2023-02-08 17:31:23 --> CSRF token verified.
+INFO - 2023-02-08 17:31:26 --> CSRF token verified.
+INFO - 2023-02-08 17:31:28 --> CSRF token verified.
+INFO - 2023-02-08 17:32:35 --> CSRF token verified.
+INFO - 2023-02-08 17:32:36 --> CSRF token verified.
+INFO - 2023-02-08 17:32:39 --> CSRF token verified.
+INFO - 2023-02-08 17:32:41 --> CSRF token verified.
+INFO - 2023-02-08 17:32:44 --> CSRF token verified.
+INFO - 2023-02-08 17:32:46 --> CSRF token verified.
